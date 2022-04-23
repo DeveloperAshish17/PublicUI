@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {CardModule} from 'primeng/card';
+
 
 import { PagesRoutingModule } from './pages-routing.module';
 import { HomeComponent } from './home/home.component';
@@ -11,7 +13,8 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    CardModule
   ]
 })
 export class PagesModule { }
