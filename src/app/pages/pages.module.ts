@@ -5,11 +5,13 @@ import {CardModule} from 'primeng/card';
 
 import { PagesRoutingModule } from './pages-routing.module';
 import { HomeComponent } from './home/home.component';
+import { ServiceComponent } from './service/service.component';
 
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    ServiceComponent
   ],
   imports: [
     CommonModule,
