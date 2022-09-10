@@ -8,6 +8,7 @@ import { FooterComponent } from './@structure/components/footer/footer.component
 import { SidebarComponent } from './@structure/components/sidebar/sidebar.component';
 import { HeaderComponent } from './@structure/components/header/header.component';
 import { HomeMainComponent } from './@structure/home-main/home-main.component';
+import { NotFoundPageComponent } from './@structure/not-found-page/not-found-page.component';
 
 
 
@@ -18,6 +19,7 @@ import { HomeMainComponent } from './@structure/home-main/home-main.component';
     SidebarComponent,
     HeaderComponent,
     HomeMainComponent,
+    NotFoundPageComponent,
 
   ],
   imports: [
