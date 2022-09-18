@@ -1,6 +1,23 @@
-.card {
-    position: absolute;
-    bottom: 0px;
-    margin: 0px;
-    padding: 0px;
+ul,
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+#footer {
+    background-color: rgb(23, 35, 55);
+    color: white;
+}
+
+.col {
+    margin: 1rem 0rem;
+}
+
+a {
+    color: white;
+}
+
+li {
+    color: slategrey;
 }
